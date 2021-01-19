@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Database\Seeder;
+//Criando as seeds dos models
 
 class DatabaseSeeder extends Seeder
 {

@@ -1,6 +1,7 @@
 <?php
 
 namespace Database\Seeders;
+//Criando as seeds dos models
 
 use app\models\treinador;
 use Illuminate\Database\Seeder;

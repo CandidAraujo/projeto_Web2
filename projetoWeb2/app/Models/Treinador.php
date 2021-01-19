@@ -1,6 +1,7 @@
 <?php
 
 namespace app\Models;
+//Criando as seeds dos models
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;

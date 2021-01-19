@@ -4,7 +4,7 @@ namespace Database\Seeders;
 
 use app\models\atleta;
 use Illuminate\Database\Seeder;
-
+//Criando as seeds dos models
 class VendasSeeder extends Seeder
 {
     /**
