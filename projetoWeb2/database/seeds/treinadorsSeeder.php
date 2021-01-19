@@ -14,13 +14,10 @@ class VendasSeeder extends Seeder
      */
     public function run()
     {
-        //
-        User::all()
-        treinadors::create([
-        'treinador_id'=>1;
-        'nome'=>'Manuel',
-        'email'=>'manuelaugusto22@gmail.com',
-        'telefone'=>'81998745502',
- ]);
+        $users = User::all();
+        foreach ($users as $user) {
+        treinador::factory(5)->create([
+        'treinador_id' =>$user->id
+        ]);
     }
 }

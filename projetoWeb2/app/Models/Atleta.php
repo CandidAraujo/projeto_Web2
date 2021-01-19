@@ -1,10 +1,16 @@
 <?php
 
-namespace App;
+namespace app\Models;
 
+use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Atleta extends Model
+class atleta extends Model
 {
-    //
+    use HasFactory;
+
+    public function user(){
+return $this->belongsTo(User::class);
+    }
 }
+
