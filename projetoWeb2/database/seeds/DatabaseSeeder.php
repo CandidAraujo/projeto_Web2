@@ -12,5 +12,11 @@ class DatabaseSeeder extends Seeder
     public function run()
     {
         \app\Models\User::factory(10)->create();
+        $this->all([
+        	atletasSeeder::class;
+        ])
+        $this->all([
+        	treinadorsSeeder::class;
+        ])
     }
 }
